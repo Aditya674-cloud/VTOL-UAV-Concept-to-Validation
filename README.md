@@ -22,8 +22,7 @@ The project will also investigate how major design parameters such as aircraft m
 
 Chapter 1 (Planned)
 
-Aircraft conceptual and
-preliminary design
+concept design
 
 Chapter 2  (Planned)
 
