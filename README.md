@@ -20,7 +20,7 @@ The project will also investigate how major design parameters such as aircraft m
 
 # 📌 Project Status
 
-Chapter 1 (Planned)
+Chapter 1 (Ongoing)
 
 concept design
 
