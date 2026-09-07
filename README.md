@@ -22,7 +22,7 @@ The project will also investigate how major design parameters such as aircraft m
 
 Chapter 1 (Ongoing)
 
-concept design
+concept design dimensions finding.
 
 Chapter 2  (Planned)
 
