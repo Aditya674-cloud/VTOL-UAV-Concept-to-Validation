@@ -24,7 +24,7 @@ Chapter 1 (Ongoing)
 
 concept design dimensions finding.
 
-Chapter 2  (Planned)
+Chapter 2  (Ongoing)
 
 Aerodynamic design
 
