@@ -1,0 +1,5 @@
+1. https://ieeexplore.ieee.org/abstract/document/10388419 (Autonomous Navigation for eVTOL: Review and Future Perspectives)
+2. Visual Flight Rules-based Collision Avoidance System for VTOL UAV(https://ieeexplore.ieee.org/abstract/document/9310810)
+3. URBAN AIR TRAFFIC MANAGEMENT FOR COLLISION AVOIDANCE WITH NON-COOPERATIVE AIRSPACE USERS(https://pure.tudelft.nl/ws/files/134385500/Paper_Panchal_0567.pdf)
+4. Distance measurement technique in hemispherical area for indoor vertical take-off and landing unmanned aerial vehicle(https://ieeexplore.ieee.org/abstract/document/6865895)
+5. Enhanced Vision-Based Obstacle Sensing During UAM Approach and Landing Operations(https://ieeexplore.ieee.org/abstract/document/11257317)
