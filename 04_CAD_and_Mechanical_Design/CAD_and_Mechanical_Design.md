@@ -356,8 +356,8 @@ $$
 
 where:
 
-* \(c_{tip}\) = tip chord.
-* \(c_{root}\) = root chord.
+* $\(c_{tip}\)$ = tip chord.
+* $\(c_{root}\)$ = root chord.
 
 For a rectangular wing:
 
@@ -511,32 +511,28 @@ The CAD model can be used to estimate the center of gravity if component masses 
 For discrete components:
 
 $$
-x_{CG}
-=
+x_{CG}=
 \frac{\sum m_ix_i}{\sum m_i}
 $$
 
 Similarly:
 
 $$
-y_{CG}
-=
+y_{CG}=
 \frac{\sum m_iy_i}{\sum m_i}
 $$
 
 and:
 
 $$
-z_{CG}
-=
+z_{CG}=
 \frac{\sum m_iz_i}{\sum m_i}
 $$
 
 The complete aircraft CG is therefore:
 
 $$
-\vec r_{CG}
-=
+\vec r_{CG}=
 \frac{\sum m_i\vec r_i}{\sum m_i}
 $$
 
@@ -549,7 +545,7 @@ This is particularly useful because the CG is not determined by the fuselage geo
 The preliminary design targeted approximately:
 
 $$
-25\%-30\%
+25\\%-30\\%
 $$
 
 of mean aerodynamic chord as an initial CG reference.
@@ -937,10 +933,10 @@ $$
 
 where:
 
-* \(S_{HT}\) = horizontal tail area.
-* \(L_{HT}\) = horizontal tail moment arm.
-* \(S_{wing}\) = wing area.
-* \(MAC\) = mean aerodynamic chord.
+* $\(S_{HT}\)$ = horizontal tail area.
+* $\(L_{HT}\)$ = horizontal tail moment arm.
+* $\(S_{wing}\)$ = wing area.
+* $\(MAC\)$ = mean aerodynamic chord.
 
 ---
 
@@ -961,10 +957,10 @@ $$
 
 where:
 
-* \(S_{VT}\) = vertical tail area.
-* \(L_{VT}\) = vertical tail moment arm.
-* \(S_{wing}\) = wing area.
-* \(b\) = wing span.
+* $\(S_{VT}\)$ = vertical tail area.
+* $\(L_{VT}\)$ = vertical tail moment arm.
+* $\(S_{wing}\)$ = wing area.
+* $\(b\)$ = wing span.
 
 The final vertical-tail design will later be connected to flight-dynamics analysis.
 
@@ -1645,8 +1641,7 @@ Therefore, a heavier aircraft requires more VTOL thrust.
 The stall speed also changes:
 
 $$
-V_{stall}
-=
+V_{stall}=
 \sqrt{
 \frac{2W}
 {\rho S C_{Lmax}}
@@ -1897,9 +1892,9 @@ $$
 
 where:
 
-* \(I\) = moment of inertia.
-* \(\dot{\omega}\) = angular acceleration.
-* \(M\) = applied moment.
+* $\(I\)$ = moment of inertia.
+* $\(\dot{\omega}\)$ = angular acceleration.
+* $\(M\)$ = applied moment.
 
 Therefore, accurate mass distribution from CAD becomes important later.
 
@@ -1925,8 +1920,8 @@ $$
 
 where:
 
-* \(\vec r\) = position vector from CG to motor.
-* \(\vec F\) = thrust force.
+* $\vec r$ = position vector from CG to motor.
+* $\vec F$ = thrust force.
 
 Therefore, motor placement in CAD directly affects control authority.
 
