@@ -365,18 +365,17 @@ An idealized actuator-disk approximation can be used to estimate hover power.
 The ideal induced power is approximately:
 
 $$
-P_{ideal}
-=
+P_{ideal}=
 \frac{T^{3/2}}
 {\sqrt{2\rho A}}
 $$
 
 where:
 
-* \(P_{ideal}\) = ideal induced power
-* \(T\) = thrust
-* \(\rho\) = air density
-* \(A\) = rotor disk area
+* $\(P_{ideal}\)$ = ideal induced power
+* $\(T\)$ = thrust
+* $\(\rho\)$ = air density
+* $\(A\)$ = rotor disk area
 
 This equation represents an ideal aerodynamic model.
 
@@ -387,8 +386,7 @@ Therefore, actual power is higher.
 A simplified estimate can be written as:
 
 $$
-P_{actual}
-=
+P_{actual}=
 \frac{P_{ideal}}{FM}
 $$
 
@@ -445,15 +443,14 @@ $$
 
 where:
 
-* \(P\) = power
-* \(E\) = energy
-* \(t\) = time
+* $\(P\)$ = power
+* $\(E\)$ = energy
+* $\(t\)$ = time
 
 For a flight mission consisting of several phases:
 
 $$
-E_{mission}
-=
+E_{mission}=
 \sum_i P_i t_i
 $$
 
@@ -501,10 +498,10 @@ $$
 
 where:
 
-* \(L\) = aerodynamic lift
-* \(W\) = aircraft weight
-* \(T_{pusher}\) = forward propulsion thrust
-* \(D\) = aerodynamic drag
+* $\(L\)$ = aerodynamic lift
+* $\(W\)$ = aircraft weight
+* $\(T_{pusher}\)$ = forward propulsion thrust
+* $\(D\)$ = aerodynamic drag
 
 The wing therefore carries most of the aircraft weight while the pusher propulsion system compensates for aerodynamic drag.
 
@@ -610,16 +607,14 @@ $$
 then:
 
 $$
-P_{motor}
-=
+P_{motor}=
 \frac{P_{aero}}{\eta_{prop}}
 $$
 
 Therefore:
 
 $$
-P_{motor}
-=
+P_{motor}=
 \frac{62.3}{0.70}
 $$
 
@@ -648,8 +643,7 @@ The aircraft must also be capable of:
 Therefore, final pusher motor sizing should consider:
 
 $$
-P_{required}
-=
+P_{required}=
 P_{cruise}
 +
 P_{climb}
@@ -703,9 +697,9 @@ This distinction is particularly important when selecting the rear pusher system
 
 # 3.18 Motor Kv
 
-Brushless motor specifications often include a parameter called \(K_V\).
+Brushless motor specifications often include a parameter called $\(K_V\)$.
 
-\(K_V\) represents the approximate no-load rotational speed per volt:
+$\(K_V\)$ represents the approximate no-load rotational speed per volt:
 
 $$
 RPM\approx K_VV
@@ -758,9 +752,9 @@ $$
 
 where:
 
-* \(P\) = mechanical power
-* \(\tau\) = torque
-* \(\omega\) = angular velocity
+* $\(P\)$ = mechanical power
+* $\(\tau\)$ = torque
+* $\(\omega\)$ = angular velocity
 
 Angular velocity is:
 
@@ -894,8 +888,7 @@ $$
 The approximate stored energy is:
 
 $$
-E(Wh)
-=
+E(Wh)=
 V_{nominal}
 \times
 Capacity(Ah)
@@ -904,8 +897,7 @@ $$
 Therefore:
 
 $$
-Capacity(Ah)
-=
+Capacity(Ah)=
 \frac{E(Wh)}
 {V_{nominal}}
 $$
@@ -913,8 +905,7 @@ $$
 For mAh:
 
 $$
-Capacity(mAh)
-=
+Capacity(mAh)=
 \frac{E(Wh)\times1000}
 {V_{nominal}}
 $$
@@ -1008,8 +999,7 @@ A preliminary mission could be:
 Mission energy can then be estimated using:
 
 $$
-E_{mission}
-=
+E_{mission}=
 \sum_i P_i t_i
 $$
 
@@ -1022,8 +1012,7 @@ $$
 For multiple phases:
 
 $$
-E_{mission}
-=
+E_{mission}=
 P_1t_1+
 P_2t_2+
 P_3t_3+\cdots
@@ -1057,8 +1046,7 @@ The energy for each phase can be calculated separately.
 For VTOL:
 
 $$
-E_{VTOL}
-=
+E_{VTOL}=
 1500
 \left(\frac{30}{3600}\right)
 $$
@@ -1070,8 +1058,7 @@ $$
 For cruise:
 
 $$
-E_{cruise}
-=
+E_{cruise}=
 150
 \left(\frac{10}{60}\right)
 $$
@@ -1083,8 +1070,7 @@ $$
 For climb:
 
 $$
-E_{climb}
-=
+E_{climb}=
 500
 \left(\frac{60}{3600}\right)
 $$
@@ -1096,8 +1082,7 @@ $$
 For landing:
 
 $$
-E_{landing}
-=
+E_{landing}=
 1200
 \left(\frac{30}{3600}\right)
 $$
@@ -1109,8 +1094,7 @@ $$
 Total:
 
 $$
-E_{mission}
-=
+E_{mission}=
 12.5+25+8.33+10
 $$
 
@@ -1149,8 +1133,7 @@ Useful Thrust Power
 A simplified overall efficiency can be represented as:
 
 $$
-\eta_{overall}
-=
+\eta_{overall}=
 \eta_{ESC}
 \eta_{motor}
 \eta_{prop}
@@ -1161,8 +1144,7 @@ The actual system may include additional losses.
 Therefore:
 
 $$
-P_{electrical}
->
+P_{electrical}>
 P_{useful}
 $$
 
@@ -1206,8 +1188,8 @@ $$
 
 where:
 
-* \(T\) = thrust
-* \(P\) = power
+* $\(T\)$ = thrust
+* $\(P\)$ = power
 
 Higher thrust per unit power indicates better efficiency under that particular operating condition.
 
@@ -1308,8 +1290,7 @@ $$
 For a multi-motor system:
 
 $$
-I_{total}
-=
+I_{total}=
 I_1+I_2+I_3+I_4+I_5
 $$
 
@@ -1462,8 +1443,7 @@ The motor selection process should follow a defined procedure.
 For VTOL:
 
 $$
-T_{required,motor}
-=
+T_{required,motor}=
 \frac{kW}{4}
 $$
 
@@ -1477,7 +1457,7 @@ Select a preliminary battery voltage range.
 
 Candidate motors should be evaluated based on:
 
-* \(K_V\).
+* $\(K_V\)$.
 * Maximum current.
 * Maximum power.
 * Recommended propellers.
