@@ -4,3 +4,6 @@
 4. Distance measurement technique in hemispherical area for indoor vertical take-off and landing unmanned aerial vehicle(https://ieeexplore.ieee.org/abstract/document/6865895)
 5. Enhanced Vision-Based Obstacle Sensing During UAM Approach and Landing Operations(https://ieeexplore.ieee.org/abstract/document/11257317)
 6. Conceptual design of a fixed wing vertical take-off and landing unmanned aerial vehicle(https://www.researchgate.net/publication/351569758_Conceptual_design_of_a_fixed_wing_vertical_take-off_and_landing_unmanned_aerial_vehicle)
+7. Review of Winglets on Tip Vortex,Drag and Airfoil Geometry (https://www.akademiabaru.com/doc/ARFMTSV63_N2_P218_237.pdf)
+8. Comparative Review Study of Military and Civilian Unmanned Aerial Vehicles (UAVs) (https://pdfs.semanticscholar.org/c22d/a8c08219a454445eeb982d0f632f4ac9f4c2.pdf)
+9. Static Equilibrium and Trim Flight Dynamics Principles, 2013 (https://sci-hub.su/10.1016/B978-0-08-098242-7.00003-1)
